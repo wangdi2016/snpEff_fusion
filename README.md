@@ -1,5 +1,7 @@
 # snpEff_fusion
 
+https://pcingola.github.io/SnpEff/snpeff/introduction/
+
 ## use mamba
 ```
 
