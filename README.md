@@ -1,4 +1,29 @@
 # snpEff_fusion
+
+## use mamba
+```
+
+## create mamba env
+mamba create -n snpeff
+
+## use snpeff env
+mamba activate snpeff
+
+## install snpeff via bioconda
+mamba install snpeff -c bioconda
+
+## check Human Genome
+snpEff databases | grep Human | cut -f1
+
+## use GRCh38.p14 Human genome GRCh38 using RefSeq transcripts
+snpEff download GRCh38.p14
+
+## run snpEff
+snpEff ann GRCh38.p14 sv.vcf > sv.ann.vcf
+```
+
+## directly download snpEff
+
 ```
 1. ## download snpEff
 
