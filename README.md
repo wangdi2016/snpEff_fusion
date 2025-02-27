@@ -21,7 +21,7 @@ snpEff databases | grep Human | cut -f1
 snpEff download GRCh38.p14
 
 ## run snpEff
-snpEff ann GRCh38.p14 sv.vcf > sv.ann.vcf
+snpEff -Xmx32g ann GRCh38.p14 sv.vcf > sv.ann.vcf
 ```
 
 ## Directly download snpEff
