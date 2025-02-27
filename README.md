@@ -2,7 +2,7 @@
 
 https://pcingola.github.io/SnpEff/snpeff/introduction/
 
-## use mamba
+## Use mamba
 ```
 
 ## create mamba env
@@ -24,7 +24,7 @@ snpEff download GRCh38.p14
 snpEff ann GRCh38.p14 sv.vcf > sv.ann.vcf
 ```
 
-## directly download snpEff
+## Directly download snpEff
 
 ```
 1. ## download snpEff
@@ -35,7 +35,7 @@ wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
 unzip snpEff_latest_core.zip
 cd snpEff
 
-3. download database
+3. download database Note: java version should be more than xxx
 
 java -jar snpEff.jar download GRCh38.p14
 
