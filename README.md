@@ -31,6 +31,7 @@ wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
 
 2. ## unzip
 unzip snpEff_latest_core.zip
+cd snpEff
 
 3. download database
 
