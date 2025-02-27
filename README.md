@@ -21,7 +21,11 @@ snpEff databases | grep Human | cut -f1
 snpEff download GRCh38.p14
 
 ## run snpEff
-snpEff -Xmx32g ann GRCh38.p14 sv.vcf > sv.ann.vcf
+snpEff -Xmx32g ann GRCh38.p14 SD250738.genotyped.sv.ann.vcf > SD250738.genotyped.sv.ann.vcf
+
+## Extract fusion SVTYPE=BND  EWSR1-ERG fusion gene
+grep BND SD250738.genotyped.sv.ann.vcf | grep EWSR1 | grep ERG > SD250738.EWSR1-ERG
+
 ```
 
 ## Directly download snpEff
