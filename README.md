@@ -1,6 +1,6 @@
 # snpEff_fusion
 
-## downliad snpEff
+## download snpEff
 ```
 wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
 ```
