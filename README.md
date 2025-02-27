@@ -27,6 +27,8 @@ snpEff -Xmx32g ann GRCh38.p14 SD250738.genotyped.sv.ann.vcf > SD250738.genotyped
 grep BND SD250738.genotyped.sv.ann.vcf | grep EWSR1 | grep ERG > SD250738.EWSR1-ERG
 
 ```
+![Screenshot 2025-02-26 at 8 47 52 PM](https://github.com/user-attachments/assets/d05602ac-8d43-42fc-95e4-4f21fd5a02a3)
+
 
 ## Directly download snpEff
 
