@@ -2,6 +2,13 @@
 
 https://pcingola.github.io/SnpEff/snpeff/introduction/
 
+## Wen's snpEff run
+
+```
+## I used the same parameters as our annotation pipeline
+snpEff GRCh38.99 -c /DCEG/CGF/Bioinformatics/Analtif -nextprot /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/IndividualCall/output/call/SD250740/genotyped.sv.vcacbio_snp_call/CGRSA-1324/annotation/SD250740_annotated.sv.vcf.gz
+```
+
 ## Use mamba
 ```
 
