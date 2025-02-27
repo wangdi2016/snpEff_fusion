@@ -39,5 +39,5 @@ java -jar snpEff.jar download GRCh38.p14
 
 4. ## run annotation
 
-java -Xmx32g -jar snpeff-5.2-0/snpEff.jar ann GRCh38.p14 SD250738.genotyped.sv.vcf > SD250738.genotyped.sv.ann.vcf
+java -Xmx32g -jar snpeff-5.2-0/snpEff.jar ann GRCh38.p14 sv.vcf > sv.ann.vcf
 ```
