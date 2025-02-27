@@ -26,6 +26,10 @@ snpEff -Xmx32g ann GRCh38.p14 SD250738.genotyped.sv.ann.vcf > SD250738.genotyped
 ## Extract fusion SVTYPE=BND  EWSR1-ERG fusion gene
 grep BND SD250738.genotyped.sv.ann.vcf | grep EWSR1 | grep ERG > SD250738.EWSR1-ERG
 
+more SD250738.EWSR1-ERG | cut -f1-7
+chr21	38393282	sawfish:0:43067:0:0:0	T	T]CHR22:29287764]	315.0	PASS
+chr22	29287763	sawfish:0:43067:0:0:1	T	T]CHR21:38393283]	315.0	PASS
+
 ```
 ![Screenshot 2025-02-26 at 8 47 52 PM](https://github.com/user-attachments/assets/d05602ac-8d43-42fc-95e4-4f21fd5a02a3)
 
