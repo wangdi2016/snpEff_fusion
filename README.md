@@ -43,3 +43,15 @@ java -jar snpEff.jar download GRCh38.p14
 
 java -Xmx32g -jar snpeff-5.2-0/snpEff.jar ann GRCh38.p14 sv.vcf > sv.ann.vcf
 ```
+
+## Note:
+```
+## Java version
+java --version
+openjdk 17.0.10 2024-01-16
+OpenJDK Runtime Environment (build 17.0.10+7-Ubuntu-120.04.1)
+OpenJDK 64-Bit Server VM (build 17.0.10+7-Ubuntu-120.04.1, mixed mode, sharing)
+
+Error: LinkageError occurred while loading main class org.snpeff.SnpEff
+	java.lang.UnsupportedClassVersionError: org/snpeff/SnpEff has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+``` 
